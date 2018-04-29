@@ -1,0 +1,51 @@
+@media screen and (max-width:740px){
+  .col1,.col2.col3{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+  .col3{
+    margin-right:0%;
+  }
+  .navbar{
+    display: inline-block;
+  }
+}
+@media screen and (max-width:300px)
+{
+  body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+  }
+.col1.col2
+{
+  width: 45%;
+  float: left;
+
+}
+.col3
+{
+  width: 100%;
+}
+.navbar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #800060;
+  margin: auto;
+  height: 100%;
+}
+.navbar a{
+  display: block;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-right: 2px;
+}
+}
